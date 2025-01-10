@@ -1,0 +1,112 @@
+# Potentiometer Values
+
+Need to double check these.
+
+1.	(Blend)		4.9k
+2.	(Volume)	4.8k
+3.	(Low)		30.8k
+4.	(Mid)		47k
+5.	(High)		15.2k (top), 22.4k (bottom)
+
+Comment on talkbass.com
+
+Seems to imply the high control is stacked with different values and 
+
+"The only pot that would be difficult to replace is the stacked High control (50K ohm linear/250K ohm audio)."
+
+# Pickups
+
+"They're wired just like a typical Fender Jazz Bass. The hum cancelling is due to the pickups being made with reverese polarity and reverse wrapping of the coils. So, all the wiring diagrams that show a standard V/V/T wiring will work."
+
+"Super Ferrite pickups use the same coil and magnet structure for the bridge and neck pickups but they are magnetized opposite polarity in order to form a humbucking pair when both are on. One pickup should use the red wire for hot and the other uses the black wire for hot. Doesn't make any difference which is which."
+
+"They are very very good single coil pickups."
+
+"The Super-Ferrite pickups are single coil pickups kind of like a jazz bass. I never understood why Peavey put out that Patriot bass with only one of them. On my '89 Dyna-Bass 5 (a great bass that I no longer own) I did not necessarily like the tone from the neck pickup soloed, kind of thin sounding with a little single coil buzz. But blend the two pickups both at 100% and the bass came alive, much like a Fender Jazz Bass. So despite the fact that the Super-Ferrite pickups are generally regarded as yielding fantastic tone, I completely understand changing it out on a single pickup Patriot."
+
+"The Peavey S-F pickups were specifically designed to work together like a Jazz bass; the PV Foundation with S-Fs is largely considered to be equivalent of a similar era Fender USA Jazz in most respects (at 1/3 the price! What a bargain!)."
+
+
+"I  have a foundation with the super ferrites that has 60hz hum. I also have a foundation with the VFLS that does not have this hum. Are the super ferrites more susceptible to the 60 hz hum? If not, then i my next question would be: are the neck and bridge super ferrites exactly the same? I have read that they are. I bought the 2 pickups from 2 different sellers on ebay. So could i have got 2 neck or 2 bridge? (assuming there is a difference?). My other question is that regarding the wiring. The diagram shows that one pickup uses red for the hot and the other uses black. When i do this it puts the pickups out of phase and they sound terrible. Wired the same they sound great, but with the 60hz hum. Thanks in advance for any help!"
+
+"I also have a foundation with the VFLS that does not have this hum.
+
+The VFL is an active humbucker, what you have in your other Foundation are passive single coils housed in VFL shells.
+
+Are the super ferrites more susceptible to the 60 hz hum?
+
+Ferrites are single coils so will have 60Hz hum when soloed. Foundations are wired so both pickups act as a humbucker when the Vol pots are set to the same level.
+
+Copy the wiring in your later Foundation and you should be OK"
+
+
+# BOM
+
+## Resistors
+
+Name	Measured	Marked
+
+R1		180		_________??
+R2		31k		_________??
+R3		22k		22k
+R4		43.6k	_________??
+R5		31.8k	_________??
+R6		9.3k	10k
+R7		9.3k	10k
+
+R8				37k?
+R9				37k?
+R10				_________ orange black yellow white?
+R11				_________ orange black yellow white?
+R12		29k		_________ blue silver marone?
+R13		237k	_________ red marone yellow?
+
+R14				15k
+R15				1k
+R16				39
+
+R17		47k		47k
+
+R18		10k		10k
+R19		45k		66k
+R20		250k	47k
+R21		36.6k	39k
+R22		4.7k	4.7k
+R23		6.9k	6.6k
+R24		44.7k	66k
+R25		250k	470k
+R26		36.4k	39k
+R27		4.7k	4.7k
+
+## Diodes
+
+D1		diode 1n4140 - possibly - based on Dyna Bass Schematic which may be wrong
+
+## Capacitors
+
+Name	Measured	Marked		Notes
+
+C1		113uf		_________
+C2		49uf		_________
+C3		3.6uf		2.2uf
+C4		4.6uf		_________	N8812
+C5		****		224kf		1004
+
+## Transistors
+
+Name	Measured	Marked		Notes
+
+T1		_________				D786SJ
+T2		_________				D786SJ - most likely
+
+## Weird tower thing
+
+X1		_________
+
+## Trim Pot
+
+Y1		328kohm					Need to measure middle leg for actual value
+
+# Jack
+
+Advice seems to be to use a Switchcraft barrel jack #152B. You need a stereo jack. Wire the battery to the ring so it doesn't work unless a cable is plugged in - will stop batteries from running down.
