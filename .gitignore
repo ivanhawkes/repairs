@@ -2,5 +2,5 @@
 *.log
 *.lck
 *.kra~
-
+*.kra-autosave.kra
 fp-info-cache
