@@ -4,4 +4,4 @@
 *.kra~
 *.kra-autosave.kra
 fp-info-cache
-#auto_saved_files#
+*.blend?
